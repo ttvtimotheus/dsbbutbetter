@@ -689,3 +689,82 @@
 2025-04-16 20:36:32.332 | ERROR    | services.ocr_service:process_ocr:93 - Fehler bei der OCR-Verarbeitung: object Reader can't be used in 'await' expression
 2025-04-16 20:36:32.332 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
 2025-04-16 20:36:32.341 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:43:24.969 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:43:25.237 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:43:25.237 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:43:25.351 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:43:25.351 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:43:25.351 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:43:25.351 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:43:25.352 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:43:25.352 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:43:25.352 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:43:25.352 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:43:26.440 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:43:26.441 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:43:26.441 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-16 20:43:26.441 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:43:26.441 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:43:26.444 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x106939080>
+2025-04-16 20:43:26.444 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:43:26.447 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:44:30.863 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:44:30.863 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:44:39.224 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:44:39.479 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:44:39.479 | WARNING  | services.db:get_latest_timetable:67 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:44:39.479 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:44:39.608 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:44:39.833 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:44:39.834 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:44:39.834 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-16 20:44:39.834 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:44:39.834 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:44:39.862 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x140bba890>
+2025-04-16 20:44:39.862 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:44:39.863 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:44:43.289 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:44:43.698 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:44:43.698 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:44:43.810 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:44:43.810 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:44:43.811 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:44:44.914 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:44:44.915 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:44:44.915 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-16 20:44:44.915 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:44:44.915 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:44:44.915 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x140b8bce0>
+2025-04-16 20:44:44.916 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:44:44.916 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-17 00:03:38.146 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-17 00:03:38.425 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-17 00:03:38.425 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-17 00:03:38.537 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-17 00:03:39.501 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-17 00:03:39.503 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-17 00:03:39.504 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-17 00:03:39.504 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-17 00:03:39.504 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-17 00:03:39.506 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x145999ee0>
+2025-04-17 00:03:39.507 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-17 00:03:39.513 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
