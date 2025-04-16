@@ -54,7 +54,7 @@ Du findest unsere App schlecht? Fantastisch! Pull Requests sind willkommen. Zeig
 
 ## ⚠️ Rechtlicher Hinweis
 
-Diese App ist inoffiziell und nicht mit DSBmobile verbunden. Sollte DSBmobile jemals eine brauchbare API anbieten oder ihre Benutzeroberfläche ins aktuelle Jahrtausend befördern, wird dieses Projekt obsolet.
+Diese App ist inoffiziell und nicht mit DSBmobile verbunden. Sollte Heinekingmedia jemals eine brauchbare API anbieten oder ihre Benutzeroberfläche ins aktuelle Jahrtausend befördern, wird dieses Projekt obsolet.
 
 ## 📝 Lizenz
 
