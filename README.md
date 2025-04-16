@@ -58,7 +58,7 @@ Diese App ist inoffiziell und nicht mit DSBmobile verbunden. Sollte DSBmobile je
 
 ## 📝 Lizenz
 
-MIT - Weil Wissen frei sein sollte (genauso wie dein Stundenplan).
+GPL-3.0 license
 
 ---
 
