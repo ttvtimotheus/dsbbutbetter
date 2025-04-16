@@ -1,0 +1,691 @@
+2025-04-16 14:12:02.892 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:12:02.892 | INFO     | services.db:init_db:25 - Initialisiere Datenbankverbindung...
+2025-04-16 14:12:02.892 | ERROR    | services.db:init_db:36 - Fehler bei der Datenbankinitialisierung: Invalid API key
+2025-04-16 14:12:05.883 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:12:05.883 | ERROR    | services.dsb_service:authenticate_user:34 - Fehler bei der Authentifizierung: module 'pydsb' has no attribute 'Session'
+2025-04-16 14:13:39.260 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:13:41.371 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:13:41.371 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:13:49.832 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:13:49.833 | ERROR    | services.dsb_service:authenticate_user:34 - Fehler bei der Authentifizierung: module 'pydsb' has no attribute 'Session'
+2025-04-16 14:13:50.756 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:13:50.756 | ERROR    | services.dsb_service:authenticate_user:34 - Fehler bei der Authentifizierung: module 'pydsb' has no attribute 'Session'
+2025-04-16 14:14:03.921 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:14:05.473 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:14:05.473 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:15:02.585 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:15:02.585 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:15:17.970 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:15:17.971 | ERROR    | services.dsb_service:authenticate_user:34 - Fehler bei der Authentifizierung: module 'pydsb' has no attribute 'Session'
+2025-04-16 14:16:25.726 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:16:27.724 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:16:27.724 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:16:49.099 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:16:49.099 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:16:52.842 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:16:53.206 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:16:53.206 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:16:53.206 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:16:54.496 | INFO     | services.dsb_service:get_timetable:99 - Stundenplan erfolgreich heruntergeladen: 128406 Bytes
+2025-04-16 14:16:54.497 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:16:54.748 | INFO     | services.ocr_service:get_reader:21 - Initialisiere EasyOCR Reader...
+2025-04-16 14:16:54.874 | ERROR    | services.ocr_service:process_ocr:64 - Fehler bei der OCR-Verarbeitung: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>
+2025-04-16 14:16:54.875 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:17:43.385 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:17:45.032 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:17:45.032 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:18:14.457 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:18:16.055 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:18:16.055 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:19:47.339 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:19:47.601 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:19:47.601 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:19:47.601 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:19:48.803 | INFO     | services.dsb_service:get_timetable:99 - Stundenplan erfolgreich heruntergeladen: 128406 Bytes
+2025-04-16 14:19:48.804 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:19:48.831 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:19:57.465 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:19:58.126 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:20:03.389 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 99 Textbereiche erkannt.
+2025-04-16 14:20:03.397 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:24:16.077 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:24:18.165 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:24:18.165 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:24:33.422 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:24:35.002 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:24:35.002 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:24:44.787 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:24:45.060 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:24:45.060 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:24:45.060 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:24:45.173 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:24:46.280 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:24:46.281 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:24:46.292 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:24:48.578 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:24:48.579 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:24:51.684 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:24:51.692 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:25:44.343 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:25:44.344 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:25:55.953 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:25:56.187 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:25:56.187 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:25:56.187 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:25:56.285 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:25:56.286 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:25:57.252 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:25:57.253 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:25:57.264 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:25:59.434 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:25:59.436 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:26:01.635 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:26:01.644 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:27:00.521 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:27:00.749 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:27:00.749 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:27:00.843 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:27:00.844 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:27:01.720 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:27:01.720 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:27:01.729 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:27:08.406 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:27:08.419 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:27:21.813 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:27:23.950 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:27:23.950 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:27:41.646 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:27:43.190 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:27:43.190 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:28:10.952 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:28:11.220 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:28:11.221 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:28:11.221 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:28:11.311 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:28:12.370 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:28:12.370 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:28:12.384 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:28:15.167 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:28:15.170 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:28:17.857 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:28:17.866 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:29:42.431 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:29:44.542 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:29:44.542 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:30:03.863 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:30:04.472 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:30:04.472 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:30:04.472 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:30:04.701 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:30:04.701 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:30:04.702 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:30:05.787 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:30:05.788 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:30:05.807 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:30:08.242 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:30:08.248 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:30:12.503 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:30:12.513 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:32:09.566 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:32:11.692 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:32:11.692 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:32:23.609 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:32:25.188 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:32:25.188 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:33:04.743 | INFO     | app.api.dsb:parse_plan:34 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:33:05.045 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:33:05.045 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:33:05.045 | INFO     | app.api.dsb:parse_plan:45 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:33:05.132 | INFO     | services.dsb_service:get_timetable:122 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:33:06.362 | INFO     | services.dsb_service:get_timetable:136 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:33:06.362 | INFO     | app.api.dsb:parse_plan:61 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:33:06.383 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:33:08.588 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:33:08.589 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:33:10.944 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 14:33:10.945 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 14:33:10.950 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 14:34:22.742 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:34:24.815 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:34:24.815 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:34:43.801 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:34:45.368 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:34:45.368 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:35:03.450 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:35:05.110 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:35:05.110 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:40:02.311 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:40:04.531 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:40:04.531 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:41:31.207 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:41:31.207 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:44:07.289 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:44:07.289 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:47:03.232 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 14:47:05.409 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 14:47:05.409 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 14:47:18.866 | INFO     | app.api.dsb:parse_plan:39 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 14:47:19.152 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 14:47:19.152 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 14:47:19.152 | INFO     | app.api.dsb:parse_plan:50 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 14:47:19.245 | INFO     | services.dsb_service:get_timetable:125 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 14:47:20.362 | INFO     | services.dsb_service:get_timetable:139 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 14:47:20.362 | INFO     | app.api.dsb:parse_plan:67 - Verfügbare Pläne: 3
+2025-04-16 14:47:20.362 | INFO     | app.api.dsb:parse_plan:79 - Gefundene Klassen: []
+2025-04-16 14:47:20.363 | INFO     | app.api.dsb:parse_plan:82 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 14:47:20.392 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 14:47:22.598 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 14:47:22.599 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 14:47:26.648 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 14:47:26.670 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:08:03.332 | INFO     | app.api.dsb:parse_plan:39 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:08:03.746 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:08:03.747 | INFO     | app.api.dsb:parse_plan:50 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:08:03.858 | INFO     | services.dsb_service:get_timetable:125 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:08:04.913 | INFO     | services.dsb_service:get_timetable:139 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:08:04.915 | INFO     | app.api.dsb:parse_plan:67 - Verfügbare Pläne: 3
+2025-04-16 20:08:04.915 | INFO     | app.api.dsb:parse_plan:79 - Gefundene Klassen: []
+2025-04-16 20:08:04.915 | INFO     | app.api.dsb:parse_plan:82 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:08:04.927 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:08:10.608 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:08:10.611 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:08:10.635 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:12:34.232 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:12:34.232 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:15:36.719 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:15:36.720 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:15:51.085 | INFO     | app.api.dsb:parse_plan:39 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:15:51.388 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:15:51.388 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:15:51.388 | INFO     | app.api.dsb:parse_plan:50 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:80 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:112 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:115 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:115 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:115 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:15:51.488 | INFO     | services.dsb_service:get_timetable:125 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:15:52.578 | INFO     | services.dsb_service:get_timetable:139 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:15:52.578 | INFO     | app.api.dsb:parse_plan:67 - Verfügbare Pläne: 3
+2025-04-16 20:15:52.578 | INFO     | app.api.dsb:parse_plan:79 - Gefundene Klassen: []
+2025-04-16 20:15:52.578 | INFO     | app.api.dsb:parse_plan:82 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:15:52.615 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 20:15:54.919 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 20:15:54.919 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:15:57.363 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:15:57.364 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:15:57.377 | INFO     | services.db:store_timetable:44 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:18:02.031 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:18:57.142 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:18:57.142 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:19:27.577 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:19:29.270 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:19:29.270 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:20:08.246 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:20:08.541 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:20:08.541 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:20:08.542 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:20:08.636 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:20:08.637 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:09.741 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:20:09.741 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:20:09.741 | INFO     | app.api.dsb:parse_plan:84 - Gefundene Klassen: []
+2025-04-16 20:20:09.741 | INFO     | app.api.dsb:parse_plan:87 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:20:09.753 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 20:20:12.097 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 20:20:12.100 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:20:15.235 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:20:15.236 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:20:15.237 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:20:23.342 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:20:23.598 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:20:23.599 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:20:23.599 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:20:23.805 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:25.061 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:20:25.061 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:20:25.062 | INFO     | app.api.dsb:parse_plan:84 - Gefundene Klassen: []
+2025-04-16 20:20:25.062 | INFO     | app.api.dsb:parse_plan:87 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:20:25.068 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:20:26.945 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:20:26.947 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:20:26.947 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:20:26.947 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:20:26.947 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:20:26.948 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:20:31.983 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:20:32.194 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:20:32.194 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:20:32.194 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:20:32.299 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:20:32.300 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:20:33.349 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:20:33.349 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:20:33.349 | INFO     | app.api.dsb:parse_plan:84 - Gefundene Klassen: []
+2025-04-16 20:20:33.349 | INFO     | app.api.dsb:parse_plan:87 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:20:33.358 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:20:35.022 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:20:35.023 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:22:04.141 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:22:04.401 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:22:04.401 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:22:04.401 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:22:04.504 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:22:04.725 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:22:04.725 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:22:04.725 | INFO     | app.api.dsb:parse_plan:84 - Gefundene Klassen: []
+2025-04-16 20:22:04.725 | INFO     | app.api.dsb:parse_plan:87 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:22:04.732 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:22:08.725 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:22:08.729 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:22:08.730 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:22:35.943 | INFO     | app.api.dsb:get_specific_plan:118 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804317245637083
+2025-04-16 20:22:36.179 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:22:36.179 | INFO     | app.api.dsb:get_specific_plan:127 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804317245637083
+2025-04-16 20:22:36.179 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804317245637083
+2025-04-16 20:22:38.106 | ERROR    | services.ocr_service:process_ocr:97 - Fehler bei der OCR-Verarbeitung: cannot identify image file <_io.BytesIO object at 0x146097010>
+2025-04-16 20:22:38.106 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:22:38.107 | ERROR    | services.db:store_timetable:47 - Fehler beim Speichern des Stundenplans im Cache: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-16 20:22:43.731 | INFO     | app.api.dsb:get_specific_plan:118 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804317245637083
+2025-04-16 20:22:43.934 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:22:43.934 | INFO     | app.api.dsb:get_specific_plan:127 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804317245637083
+2025-04-16 20:22:43.934 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804317245637083
+2025-04-16 20:22:45.116 | ERROR    | services.ocr_service:process_ocr:97 - Fehler bei der OCR-Verarbeitung: cannot identify image file <_io.BytesIO object at 0x10cb5cfe0>
+2025-04-16 20:22:45.116 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:22:45.116 | ERROR    | services.db:store_timetable:47 - Fehler beim Speichern des Stundenplans im Cache: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-16 20:22:46.928 | INFO     | app.api.dsb:get_specific_plan:118 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804317245637083
+2025-04-16 20:22:47.132 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:22:47.132 | INFO     | app.api.dsb:get_specific_plan:127 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804317245637083
+2025-04-16 20:22:47.132 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804317245637083
+2025-04-16 20:22:48.166 | ERROR    | services.ocr_service:process_ocr:97 - Fehler bei der OCR-Verarbeitung: cannot identify image file <_io.BytesIO object at 0x141b174c0>
+2025-04-16 20:22:48.166 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:22:48.167 | ERROR    | services.db:store_timetable:47 - Fehler beim Speichern des Stundenplans im Cache: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-16 20:23:07.967 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:23:08.195 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:23:08.195 | WARNING  | services.db:get_latest_timetable:63 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:23:08.195 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:23:08.292 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:23:09.377 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:23:09.377 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:23:09.378 | INFO     | app.api.dsb:parse_plan:84 - Gefundene Klassen: []
+2025-04-16 20:23:09.378 | INFO     | app.api.dsb:parse_plan:87 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:23:09.385 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:23:11.937 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:23:11.947 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:23:11.948 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:24:14.052 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:24:16.175 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:24:16.175 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:26:03.435 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:26:03.436 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:27:05.622 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:27:05.892 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:27:05.892 | WARNING  | services.db:get_latest_timetable:67 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:27:05.892 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:101 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:133 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:136 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:136 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:136 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:27:06.030 | INFO     | services.dsb_service:get_timetable:146 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:27:07.155 | INFO     | services.dsb_service:get_timetable:160 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:27:07.156 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:27:07.156 | INFO     | app.api.dsb:parse_plan:91 - Gefundene Klassen: []
+2025-04-16 20:27:07.156 | INFO     | app.api.dsb:parse_plan:94 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:27:07.173 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 20:27:09.337 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 20:27:09.339 | INFO     | services.ocr_service:process_ocr:78 - Starte OCR-Verarbeitung...
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:process_ocr:88 - OCR abgeschlossen. 81 Textbereiche erkannt.
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:210 - OCR-Ergebnisse gefunden: 81
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 1: Fil
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 2: KW 15
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 3: 07.04.2025
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 4: 11.04.2025
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 5: Mehkas En Shle
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 6: Klasse
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 7: MTL 02
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 8: Montag
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 9: Fach
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:212 - OCR-Text 10: Doz
+2025-04-16 20:27:11.418 | INFO     | services.ocr_service:parse_timetable:216 - Verwende spezialisierten MTL-Stundenplan statt OCR-Parsing
+2025-04-16 20:27:11.419 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:27:11.425 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:27:17.139 | INFO     | app.api.dsb:get_specific_plan:125 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804320260574141
+2025-04-16 20:27:17.485 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:27:17.485 | INFO     | app.api.dsb:get_specific_plan:134 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804320260574141
+2025-04-16 20:27:17.485 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804320260574141
+2025-04-16 20:27:17.716 | ERROR    | services.ocr_service:process_ocr:97 - Fehler bei der OCR-Verarbeitung: cannot identify image file <_io.BytesIO object at 0x12f34ccc0>
+2025-04-16 20:27:17.717 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:27:17.717 | ERROR    | services.db:store_timetable:51 - Fehler beim Speichern des Stundenplans im Cache: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-16 20:27:21.045 | INFO     | app.api.dsb:get_specific_plan:125 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804320260574141
+2025-04-16 20:27:21.222 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:27:21.222 | INFO     | app.api.dsb:get_specific_plan:134 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804320260574141
+2025-04-16 20:27:21.222 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/04684997-9137-4bc4-8461-e9ca488ed3ab/8c5c889e-4769-46a6-b331-d447ad084f56_000.jpg?638804320260574141
+2025-04-16 20:27:22.269 | ERROR    | services.ocr_service:process_ocr:97 - Fehler bei der OCR-Verarbeitung: cannot identify image file <_io.BytesIO object at 0x1086b60c0>
+2025-04-16 20:27:22.269 | INFO     | services.ocr_service:create_placeholder_timetable:190 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:27:22.270 | ERROR    | services.db:store_timetable:51 - Fehler beim Speichern des Stundenplans im Cache: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-16 20:27:58.425 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:28:00.614 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:28:00.615 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:28:21.427 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:28:23.079 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:28:23.079 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:29:00.989 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:32:13.345 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:32:13.346 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:32:13.347 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:32:13.610 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:32:13.611 | WARNING  | services.db:get_latest_timetable:67 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:32:13.611 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:32:13.705 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:32:13.706 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:32:13.706 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:32:14.805 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:32:14.805 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:32:14.805 | INFO     | app.api.dsb:parse_plan:91 - Gefundene Klassen: []
+2025-04-16 20:32:14.805 | INFO     | app.api.dsb:parse_plan:94 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:32:14.806 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:32:14.836 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x1255b0270>
+2025-04-16 20:32:14.836 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:32:14.837 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:32:28.964 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:32:29.162 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:32:29.162 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:32:29.407 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:32:30.310 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:32:30.310 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:32:30.311 | INFO     | app.api.dsb:parse_plan:91 - Gefundene Klassen: []
+2025-04-16 20:32:30.311 | INFO     | app.api.dsb:parse_plan:94 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:32:30.311 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:32:30.311 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x12556b920>
+2025-04-16 20:32:30.311 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:32:30.312 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:32:30.391 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:32:32.690 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:32:32.691 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:32:35.081 | INFO     | app.api.dsb:get_specific_plan:125 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804323493496802
+2025-04-16 20:32:35.293 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:32:35.293 | INFO     | app.api.dsb:get_specific_plan:134 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804323493496802
+2025-04-16 20:32:35.293 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804323493496802
+2025-04-16 20:32:37.910 | INFO     | services.dsb_service:get_specific_plan_image:64 - Gültiges Bild vom Typ JPEG geladen, Größe: (1600, 1132)
+2025-04-16 20:32:37.910 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:32:37.916 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 20:32:40.224 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 20:32:40.227 | ERROR    | services.ocr_service:process_ocr:93 - Fehler bei der OCR-Verarbeitung: object Reader can't be used in 'await' expression
+2025-04-16 20:32:40.227 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:32:40.240 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:32:43.080 | INFO     | app.api.dsb:get_specific_plan:125 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804323493496802
+2025-04-16 20:32:43.314 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:32:43.314 | INFO     | app.api.dsb:get_specific_plan:134 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804323493496802
+2025-04-16 20:32:43.314 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/d6a637ec-c474-488b-bc57-6db59b341e89/0ab989f6-b599-4084-bfbf-664b01ca8ad0_000.jpg?638804323493496802
+2025-04-16 20:32:44.410 | INFO     | services.dsb_service:get_specific_plan_image:64 - Gültiges Bild vom Typ JPEG geladen, Größe: (1600, 1132)
+2025-04-16 20:32:44.410 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:32:44.425 | ERROR    | services.ocr_service:process_ocr:93 - Fehler bei der OCR-Verarbeitung: object Reader can't be used in 'await' expression
+2025-04-16 20:32:44.426 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:32:44.426 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:32:50.264 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:32:52.368 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:32:52.368 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:33:32.423 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:33:34.519 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:33:34.519 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:34:55.068 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:34:55.346 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:34:55.346 | WARNING  | services.db:get_latest_timetable:67 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:34:55.346 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:34:55.439 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:34:56.544 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:34:56.545 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:34:56.545 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-16 20:34:56.545 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:34:56.545 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:34:56.577 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x129747060>
+2025-04-16 20:34:56.577 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:34:56.580 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:35:35.955 | INFO     | main:shutdown_event:46 - Shutting down DSB But Better API
+2025-04-16 20:35:48.370 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:35:48.370 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:35:48.371 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:35:48.371 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:35:59.157 | INFO     | main:startup_event:40 - Starting up DSB But Better API
+2025-04-16 20:35:59.157 | INFO     | services.db:init_db:16 - Verwende In-Memory Cache statt Datenbank
+2025-04-16 20:36:20.649 | INFO     | app.api.dsb:parse_plan:44 - Versuche Stundenplan-Abruf für Benutzer: 392662
+2025-04-16 20:36:20.978 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:36:20.978 | WARNING  | services.db:get_latest_timetable:67 - Kein Stundenplan im Cache gefunden für Benutzer 392662
+2025-04-16 20:36:20.978 | INFO     | app.api.dsb:parse_plan:55 - Authentifizierung erfolgreich. Rufe Stundenplan ab...
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 07.04.-11.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 14.04.-18.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:125 - Gefundener Plan: 21.04.-25.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:157 - Gefundene Timetable-Einträge: 3
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:160 - Plan 1: 07.04.-11.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:160 - Plan 2: 14.04.-18.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:160 - Plan 3: 21.04.-25.04.25_MTA
+2025-04-16 20:36:21.080 | INFO     | services.dsb_service:get_timetable:170 - Verwende Stundenplan: 07.04.-11.04.25_MTA
+2025-04-16 20:36:22.083 | INFO     | services.dsb_service:get_timetable:184 - Stundenplan erfolgreich heruntergeladen: 112781 Bytes
+2025-04-16 20:36:22.085 | INFO     | app.api.dsb:parse_plan:72 - Verfügbare Pläne: 3
+2025-04-16 20:36:22.086 | INFO     | app.api.dsb:parse_plan:124 - Gefundene Klassen: []
+2025-04-16 20:36:22.086 | INFO     | app.api.dsb:parse_plan:127 - Stundenplan gefunden. Starte OCR-Verarbeitung...
+2025-04-16 20:36:22.086 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:36:22.134 | ERROR    | services.ocr_service:process_ocr:59 - Fehler bei der Bildverarbeitung: cannot identify image file <_io.BytesIO object at 0x136254450>
+2025-04-16 20:36:22.134 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:36:22.137 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
+2025-04-16 20:36:26.968 | INFO     | app.api.dsb:get_specific_plan:158 - Versuche spezifischen Plan für Benutzer 392662 zu laden: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804325811076574
+2025-04-16 20:36:27.398 | INFO     | services.dsb_service:authenticate_user:33 - Erfolgreiche Authentifizierung für Benutzer 392662
+2025-04-16 20:36:27.399 | INFO     | app.api.dsb:get_specific_plan:167 - Lade Plan von URL: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804325811076574
+2025-04-16 20:36:27.399 | INFO     | services.dsb_service:get_specific_plan_image:45 - Lade spezifischen Plan: https://light.dsbcontrol.de/DSBlightWebsite/Data/69c113d7-acff-44cf-9e40-8d4f495fc95c/0a70a0b4-8db5-4ee2-8444-c24686962d13/ad34e679-9518-431a-9609-ab8c9fefac81_000.jpg?638804325811076574
+2025-04-16 20:36:29.992 | INFO     | services.dsb_service:get_specific_plan_image:64 - Gültiges Bild vom Typ JPEG geladen, Größe: (1600, 1132)
+2025-04-16 20:36:29.992 | INFO     | services.ocr_service:process_ocr:51 - Starte OCR-Verarbeitung...
+2025-04-16 20:36:30.004 | INFO     | services.ocr_service:get_reader:39 - Initialisiere EasyOCR Reader...
+2025-04-16 20:36:32.331 | INFO     | services.ocr_service:get_reader:42 - EasyOCR Reader initialisiert.
+2025-04-16 20:36:32.332 | ERROR    | services.ocr_service:process_ocr:93 - Fehler bei der OCR-Verarbeitung: object Reader can't be used in 'await' expression
+2025-04-16 20:36:32.332 | INFO     | services.ocr_service:create_placeholder_timetable:133 - Platzhalter-Stundenplan im MTL-Format erstellt, da OCR nicht verfügbar ist
+2025-04-16 20:36:32.341 | INFO     | services.db:store_timetable:48 - Stundenplan erfolgreich im Cache gespeichert für Benutzer 392662
